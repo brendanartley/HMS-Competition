@@ -77,6 +77,6 @@ Our solution would not have been possible without the informative notebooks and 
 - [Timm](https://huggingface.co/timm) (backbones)
 - [nnAudio](https://github.com/KinWaiCheuk/nnAudio) (STFTs)
 
-# Sources
+## Sources
 
 [1] CropCat: Data Augmentation for Smoothing the Feature Distribution of EEG Signals. https://arxiv.org/abs/2212.06413
