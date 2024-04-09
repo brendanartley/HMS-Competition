@@ -2,7 +2,7 @@
 
 This repository contains the code for the 15th place solution in the [HMS - Harmful Brain Activity Classification Competition](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/overview). The Kaggle write-up can be found [here](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/discussion/492193).
 
-TLDR; @ihebch and I built a multimodal model based on three feature extractors. These are an improved 1D-wavenet, a trainable STFT, and an image model with attention pooling for the competition spectrograms. We used `hgnetv2_b4.ssld_stage2_ft_in1k` and `tf_efficientnetv2_s.in21k_ft_in1k` backbones with different architecture configurations to diversify our ensemble. For more details, keep reading!
+TLDR; [ihebch](https://www.kaggle.com/ihebch) and I built a multimodal model based on three feature extractors. These are an improved 1D-wavenet, a trainable STFT, and an image model with attention pooling for the competition spectrograms. We used `hgnetv2_b4.ssld_stage2_ft_in1k` and `tf_efficientnetv2_s.in21k_ft_in1k` backbones with different architecture configurations to diversify our ensemble. For more details, keep reading!
 
 <h1 align="center">
 <img src="./imgs/hms-GeneralArch.jpg" alt="Model Architecture" width="800">
